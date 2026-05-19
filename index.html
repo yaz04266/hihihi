@@ -54,7 +54,7 @@
   .hero-img-bg{position:absolute;inset:0;background:linear-gradient(135deg,var(--primary-light),#bfdbfe);border-radius:40% 60% 60% 40%/40% 40% 60% 60%;animation:morph 8s ease-in-out infinite;}
   @keyframes morph{0%,100%{border-radius:40% 60% 60% 40%/40% 40% 60% 60%;}50%{border-radius:60% 40% 40% 60%/60% 60% 40% 40%;}}
   .hero-img-inner{position:absolute;inset:20px;background:linear-gradient(160deg,#1e3a8a,var(--primary));border-radius:30% 50% 50% 30%/30% 30% 50% 50%;display:flex;align-items:flex-end;justify-content:center;overflow:hidden;box-shadow:0 20px 60px rgba(37,99,235,.35);}
-  .hero-avatar{width:100%;height:100%;object-fit:cover;object-position:center 20%;}
+  .hero-avatar{width:100%;height:100%;object-fit:cover;object-position:top;}
   .hero-stats{position:absolute;bottom:-20px;right:-20px;background:white;border-radius:16px;padding:16px 20px;box-shadow:0 8px 30px rgba(0,0,0,.12);text-align:center;}
   .hero-stats .num{font-size:1.6rem;font-weight:900;color:var(--primary);}
   .hero-stats .lbl{font-size:.7rem;color:var(--gray);white-space:nowrap;}
@@ -215,7 +215,7 @@
       <div class="hero-img-card">
         <div class="hero-img-bg"></div>
         <div class="hero-img-inner">
-          <img class="hero-avatar" src="photo.jpg" alt="Angel">
+          <img class="hero-avatar" src="photo.jpg" alt="葉上甄 Angel">
         </div>
         <div class="hero-stats">
           <div class="num">100+</div>
@@ -287,10 +287,10 @@
           </div>
         </div>
         <div class="stat-card">
-          <div class="stat-icon"><i class="fas fa-trophy"></i></div>
+          <div class="stat-icon"><i class="fas fa-bolt"></i></div>
           <div class="stat-info">
-            <div class="n">80%+</div>
-            <div class="l">Pocky 案 KOL 自主分享率</div>
+            <div class="n">極速執行力</div>
+            <div class="l">10天內完成7位KOL上線全流程</div>
           </div>
         </div>
       </div>
@@ -377,12 +377,11 @@
     <div class="portfolio-grid">
 
       <div class="p-card fade-in">
-        <div class="p-img">
-          <div class="p-img-bg" style="background:linear-gradient(135deg,#fef3c7,#fde68a);"></div>
-          <div class="p-img-icon">🏪</div>
+        <div class="p-img" style="padding:0;">
+          <img src="photo.111" alt="家樂福應援團" style="width:100%;height:100%;object-fit:cover;">
         </div>
         <div class="p-body">
-          <div class="p-brand">家樂福 × 中國信託</div>
+          <div class="p-brand">家樂福</div>
           <div class="p-title">家樂福應援團 創作者召集令 年度專案</div>
           <p class="p-desc">年度品牌大使招募企劃，每月合作 40 位 KOC，透過創意招募貼文讓素人自主報名任務。</p>
           <div class="p-kpi">
@@ -390,66 +389,45 @@
             <span class="kpi">報名突破萬人</span>
             <span class="kpi">年度長案</span>
           </div>
-          <a href="#" class="p-btn"><i class="fas fa-arrow-right"></i> 查看詳情</a>
+          <a href="https://www.instagram.com/explore/search/keyword/?q=%23%E5%AE%B6%E6%A8%82%E7%A6%8F%E6%87%89%E6%8F%B4%E5%9C%98" target="_blank" class="p-btn"><i class="fas fa-arrow-right"></i> 查看詳情</a>
         </div>
       </div>
 
       <div class="p-card fade-in">
-        <div class="p-img">
-          <div class="p-img-bg" style="background:linear-gradient(135deg,#fce7f3,#fbcfe8);"></div>
-          <div class="p-img-icon">💄</div>
+        <div class="p-img" style="padding:0;">
+          <img src="photo222" alt="VINATA台酒生技" style="width:100%;height:100%;object-fit:cover;">
         </div>
         <div class="p-body">
           <div class="p-brand">台酒生技</div>
           <div class="p-title">VINATA 台酒生技 KOC 圖文合作</div>
-          <p class="p-desc">500 位 IG KOC 圖文合作，透過極大量曝光達到超過 500 萬粉絲能見度。</p>
+          <p class="p-desc">500位IG KOC圖文合作，每月合作不同類型產品，每月穩定輸出，透過極大量曝光達到超過500萬粉絲觸及數。</p>
           <div class="p-kpi">
             <span class="kpi">500 位 KOC</span>
             <span class="kpi">500萬+ 觸及</span>
           </div>
-          <a href="#" class="p-btn"><i class="fas fa-arrow-right"></i> 查看詳情</a>
+          <a href="https://www.instagram.com/vinata_tw/tagged/" target="_blank" class="p-btn"><i class="fas fa-arrow-right"></i> 查看詳情</a>
         </div>
       </div>
 
       <div class="p-card fade-in">
-        <div class="p-img">
-          <div class="p-img-bg" style="background:linear-gradient(135deg,#dcfce7,#bbf7d0);"></div>
-          <div class="p-img-icon">🍫</div>
+        <div class="p-img" style="padding:0;">
+          <img src="photo333" alt="LAC保健食品" style="width:100%;height:100%;object-fit:cover;">
         </div>
         <div class="p-body">
-          <div class="p-brand">Glico</div>
-          <div class="p-title">Pocky 新年禮盒 公關品派樣</div>
-          <p class="p-desc">連續兩年執行 Pocky 公關品派樣案，寄送超過 170 位 KOL，總共 139 位自主分享。</p>
+          <div class="p-brand">LAC保健食品</div>
+          <div class="p-title">LAC保健食品 年度專案</div>
+          <p class="p-desc">每月合作20位KOC/KOL，合作多種類型保健食品，每月穩定曝光超過50萬粉絲觸及。</p>
           <div class="p-kpi">
-            <span class="kpi">170+ KOL</span>
-            <span class="kpi">分享率 80%+</span>
-            <span class="kpi">連續兩年</span>
+            <span class="kpi">每月 20 位 KOC/KOL</span>
+            <span class="kpi">每月 50萬+ 觸及</span>
           </div>
-          <a href="#" class="p-btn"><i class="fas fa-arrow-right"></i> 查看詳情</a>
+          <a href="https://www.instagram.com/lactaiwan/tagged/" target="_blank" class="p-btn"><i class="fas fa-arrow-right"></i> 查看詳情</a>
         </div>
       </div>
 
       <div class="p-card fade-in">
-        <div class="p-img">
-          <div class="p-img-bg" style="background:linear-gradient(135deg,#e0e7ff,#c7d2fe);"></div>
-          <div class="p-img-icon">📷</div>
-        </div>
-        <div class="p-body">
-          <div class="p-brand">Panasonic</div>
-          <div class="p-title">Panasonic 秋季新品記者會</div>
-          <p class="p-desc">兩週內找齊 8 位高質感 KOC 出席記者會，並於當日準時上線，總互動數達 10,800。</p>
-          <div class="p-kpi">
-            <span class="kpi">2週內完成</span>
-            <span class="kpi">互動數 10,800</span>
-          </div>
-          <a href="#" class="p-btn"><i class="fas fa-arrow-right"></i> 查看詳情</a>
-        </div>
-      </div>
-
-      <div class="p-card fade-in">
-        <div class="p-img">
-          <div class="p-img-bg" style="background:linear-gradient(135deg,#cffafe,#a5f3fc);"></div>
-          <div class="p-img-icon">🛍️</div>
+        <div class="p-img" style="padding:0;">
+          <img src="photo444" alt="Mercari" style="width:100%;height:100%;object-fit:cover;">
         </div>
         <div class="p-body">
           <div class="p-brand">Mercari</div>
@@ -459,24 +437,23 @@
             <span class="kpi">10天完成7位KOL</span>
             <span class="kpi">全流程執行</span>
           </div>
-          <a href="#" class="p-btn"><i class="fas fa-arrow-right"></i> 查看詳情</a>
+          <a href="https://www.instagram.com/explore/search/keyword/?q=%23%E6%8C%96%E5%AF%B6%E6%87%89%E6%8F%B4%E5%9C%98" target="_blank" class="p-btn"><i class="fas fa-arrow-right"></i> 查看詳情</a>
         </div>
       </div>
 
       <div class="p-card fade-in">
-        <div class="p-img">
-          <div class="p-img-bg" style="background:linear-gradient(135deg,#fef9c3,#fde047);"></div>
-          <div class="p-img-icon">☕</div>
+        <div class="p-img" style="padding:0;">
+          <img src="photo555" alt="中國信託uniopen聯名卡" style="width:100%;height:100%;object-fit:cover;">
         </div>
         <div class="p-body">
-          <div class="p-brand">每朝咖啡</div>
-          <div class="p-title">每朝咖啡 EX KOC 品質合作</div>
-          <p class="p-desc">客戶高度重視質感與成效，多輪對焦篩選後選出四位最合適 KOC，總互動數達 10,800。</p>
+          <div class="p-brand">中國信託 x 家樂福</div>
+          <div class="p-title">中國信託uniopen聯名卡 年度專案</div>
+          <p class="p-desc">家樂福首度與中國信託推出聯名卡，每月上線2-3位KOL曝光聯名卡優惠資訊，首發邀請百萬YT創作者The Dodomen宣傳。</p>
           <div class="p-kpi">
-            <span class="kpi">精選 4 位 KOC</span>
-            <span class="kpi">互動數 10,800</span>
+            <span class="kpi">每月 2-3 位 KOL</span>
+            <span class="kpi">年度長案</span>
           </div>
-          <a href="#" class="p-btn"><i class="fas fa-arrow-right"></i> 查看詳情</a>
+          <a href="https://www.instagram.com/reel/DN2rWXf5OoS/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==" target="_blank" class="p-btn"><i class="fas fa-arrow-right"></i> 查看詳情</a>
         </div>
       </div>
 
@@ -517,7 +494,7 @@
         </div>
       </div>
       <div class="contact-cta-wrap fade-in">
-        <div class="big-avatar"><img src="photo.jpg" alt="Angel" style="width:160px;height:160px;object-fit:cover;object-position:top;border-radius:50%;border:4px solid rgba(255,255,255,0.5);"></div>
+        <div class="big-avatar"><img src="photo.jpg" alt="葉上甄 Angel" style="width:160px;height:160px;object-fit:cover;object-position:top;border-radius:50%;border:4px solid rgba(255,255,255,0.5);box-shadow:0 8px 30px rgba(0,0,0,0.3);"></div>
         <p>一起打造令人驚豔的行銷專案！</p>
         <a href="mailto:yaz04266@gmail.com" class="btn-white">
           <i class="fas fa-paper-plane"></i> 立即寄信給我
